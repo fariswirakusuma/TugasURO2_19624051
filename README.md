@@ -31,8 +31,8 @@ cmake --build . --config Debug
 ```
 cd..
 .\build\Debug\TugasURO2.exe
-14. Nantinya OPENCV akan terun
 ```
+14. Nantinya OPENCV akan ter-run
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Cara Kerja program:
 - di main.cpp terdapat array string sebagai beriku:
