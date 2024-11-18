@@ -27,6 +27,7 @@ cmake --build . --config Debug --target INSTALL
 cd build
 cmake --build . --config Debug
 12. Untuk run ketik command berikut:
-13. cd..
-14. .\build\Debug\TugasURO2.exe
+plaintext:
+ cd..
+.\build\Debug\TugasURO2.exe
 15. Nantinya OPENCV akan terun
