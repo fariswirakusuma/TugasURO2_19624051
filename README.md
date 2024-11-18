@@ -33,11 +33,11 @@ cmake --build . --config Debug
 13. Nantinya OPENCV akan terun
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Cara Kerja program:
-di main.cpp terdapat array string sebagai beriku:
-string _file[3] = {"Tok dalang_mengerikan.mp4","object_video.mp4","ini_telapak_kaki_atok_ni (online-video-cutter.com).mp4"};
-untuk mengganti video yang akan di track ubah variabel:
-string FIle  = _file[0]; //urutan = x-1 x = urutan array
-Untuk run ketik command berikut pada terminal:
+-di main.cpp terdapat array string sebagai beriku:
+-string _file[3] = {"Tok dalang_mengerikan.mp4","object_video.mp4","ini_telapak_kaki_atok_ni (online-video-cutter.com).mp4"};
+-untuk mengganti video yang akan di track ubah variabel:
+-string FIle  = _file[0]; //urutan = x-1 x = urutan array
+-Untuk run ketik command berikut pada terminal:
 cd..
 .\build\Debug\TugasURO2.exe
 
