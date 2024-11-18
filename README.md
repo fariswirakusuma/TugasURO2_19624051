@@ -1,4 +1,4 @@
-PENJELASAN PROGRAM OPEN CV(Ralat dari yang sebelumnya):
+PENJELASAN PROGRAM OPEN CV(Perbaikan dari yang sebelumnya):
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Cara Build dan Run:
 1. Install dan Download VSCODE,CMake,g++,Intel TBB
