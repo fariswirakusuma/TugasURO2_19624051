@@ -35,17 +35,20 @@ cd..
 14. Nantinya OPENCV akan ter-run
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Cara Kerja program:
-- di main.cpp terdapat array string sebagai beriku:
+1. di main.cpp terdapat array string sebagai beriku:
 ```cpp
 string _file[3] = {"Tok dalang_mengerikan.mp4","object_video.mp4","ini_telapak_kaki_atok_ni (online-video-cutter.com).mp4"};
 ``` 
-- untuk mengganti video yang akan di track ubah variabel:
+2. untuk mengganti video yang akan di track ubah variabel:
 ```cpp
 string FIle  = _file[0]; //urutan = x-1 x = urutan array
 ```
-- Untuk run ketik command berikut pada terminal:
+3. Untuk run ketik command berikut pada terminal:
 ```
 cd..
 .\build\Debug\TugasURO2.exe
 ```
+4. setelah itu drag untuk meng-select bagian yang ingin di track
+5. klik enter untuk mendapatkan hasilnya
+6. untuk exit dari debug klik enter lagi 
 
