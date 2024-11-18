@@ -36,11 +36,11 @@ cd..
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Cara Kerja program:
 - di main.cpp terdapat array string sebagai beriku:
-```
+```cpp
 string _file[3] = {"Tok dalang_mengerikan.mp4","object_video.mp4","ini_telapak_kaki_atok_ni (online-video-cutter.com).mp4"};
-```
+``` 
 - untuk mengganti video yang akan di track ubah variabel:
-```
+```cpp
 string FIle  = _file[0]; //urutan = x-1 x = urutan array
 ```
 - Untuk run ketik command berikut pada terminal:
