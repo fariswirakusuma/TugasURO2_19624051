@@ -6,12 +6,12 @@ Cara Build dan Run:
 3. Edit system envirement untuk CMake,g++,Intel TBB di bagian PATH
 4. Buatlah folder pada drive C: misalnya C:/opencv
 5. ke Terminal dan command:
-   
-- cd C:/opencv
+```
+cd C:/opencv
 
-- git clone https://github.com/opencv/opencv_contrib.git
-- git clone https://github.com/opencv/opencv.git
-
+git clone https://github.com/opencv/opencv_contrib.git
+git clone https://github.com/opencv/opencv.git
+```
 5. buatlah folder install dan build pada folder C:/opencv
 6. ke Terminal lagi dan command:
 
@@ -25,19 +25,27 @@ Cara Build dan Run:
 9. buka folder source code dengan VS code
 10. nantinya di output folder build akan automatis ter-build
 11. pada terminal ketik command berikut:
-- cd build
-- cmake --build . --config Debug
+cd build
+cmake --build . --config Debug
 12. Untuk run ketik command berikut:
-- cd..
-- .\build\Debug\TugasURO2.exe
-13. Nantinya OPENCV akan terun
+```
+cd..
+.\build\Debug\TugasURO2.exe
+14. Nantinya OPENCV akan terun
+```
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Cara Kerja program:
 - di main.cpp terdapat array string sebagai beriku:
-- string _file[3] = {"Tok dalang_mengerikan.mp4","object_video.mp4","ini_telapak_kaki_atok_ni (online-video-cutter.com).mp4"};
+```
+string _file[3] = {"Tok dalang_mengerikan.mp4","object_video.mp4","ini_telapak_kaki_atok_ni (online-video-cutter.com).mp4"};
+```
 - untuk mengganti video yang akan di track ubah variabel:
-- string FIle  = _file[0]; //urutan = x-1 x = urutan array
+```
+string FIle  = _file[0]; //urutan = x-1 x = urutan array
+```
 - Untuk run ketik command berikut pada terminal:
-- cd..
-- .\build\Debug\TugasURO2.exe
+```
+cd..
+.\build\Debug\TugasURO2.exe
+```
 
