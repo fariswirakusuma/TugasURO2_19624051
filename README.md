@@ -7,17 +7,17 @@ Cara Build dan Run:
 4. Buatlah folder pada drive C: misalnya C:/opencv
 5. ke Terminal dan command:
    
-cd C:/opencv
+- cd C:/opencv
 
-git clone https://github.com/opencv/opencv_contrib.git
-git clone https://github.com/opencv/opencv.git
+- git clone https://github.com/opencv/opencv_contrib.git
+- git clone https://github.com/opencv/opencv.git
 
 5. buatlah folder install dan build pada folder C:/opencv
 6. ke Terminal lagi dan command:
 
-cd build (pastikan sudah di C:/opencv pada terminal jika belum maka command: cd C:/opencv/build)
-cmake -D CMAKE_BUILD_TYPE=Debug -D CMAKE_INSTALL_PREFIX="C:/opencv/install" -D OPENCV_EXTRA_MODULES_PATH="C:/opencv/opencv_contrib/modules" -D WITH_TBB=ON -D WITH_GTK=ON -D WITH_WIN32UI=ON -D WITH_GTK_2_X=OFF -D WITH_GTK_3=OFF C:/opencv/opencv
-cmake --build . --config Debug --target INSTALL
+- cd build (pastikan sudah di C:/opencv pada terminal jika belum maka command: cd C:/opencv/build)
+- cmake -D CMAKE_BUILD_TYPE=Debug -D CMAKE_INSTALL_PREFIX="C:/opencv/install" -D OPENCV_EXTRA_MODULES_PATH="C:/opencv/opencv_contrib/modules" -D WITH_TBB=ON -D WITH_GTK=ON -D WITH_WIN32UI=ON -D WITH_GTK_2_X=OFF -D WITH_GTK_3=OFF C:/opencv/opencv
+- cmake --build . --config Debug --target INSTALL
 
 
 7. install extension yang di butuhkan seperti C++,C++ Extension Pack, Cmake, Cmake Tools,.NET Install Tool pada VS Code
@@ -25,19 +25,19 @@ cmake --build . --config Debug --target INSTALL
 9. buka folder source code dengan VS code
 10. nantinya di output folder build akan automatis ter-build
 11. pada terminal ketik command berikut:
-cd build
-cmake --build . --config Debug
+- cd build
+- cmake --build . --config Debug
 12. Untuk run ketik command berikut:
- cd..
-.\build\Debug\TugasURO2.exe
+- cd..
+- .\build\Debug\TugasURO2.exe
 13. Nantinya OPENCV akan terun
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Cara Kerja program:
--di main.cpp terdapat array string sebagai beriku:
--string _file[3] = {"Tok dalang_mengerikan.mp4","object_video.mp4","ini_telapak_kaki_atok_ni (online-video-cutter.com).mp4"};
--untuk mengganti video yang akan di track ubah variabel:
--string FIle  = _file[0]; //urutan = x-1 x = urutan array
--Untuk run ketik command berikut pada terminal:
-cd..
-.\build\Debug\TugasURO2.exe
+- di main.cpp terdapat array string sebagai beriku:
+- string _file[3] = {"Tok dalang_mengerikan.mp4","object_video.mp4","ini_telapak_kaki_atok_ni (online-video-cutter.com).mp4"};
+- untuk mengganti video yang akan di track ubah variabel:
+- string FIle  = _file[0]; //urutan = x-1 x = urutan array
+- Untuk run ketik command berikut pada terminal:
+- cd..
+- .\build\Debug\TugasURO2.exe
 
